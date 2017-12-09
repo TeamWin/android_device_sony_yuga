@@ -4,8 +4,8 @@
 /cache         ext4    /dev/block/platform/msm_sdcc.1/by-name/cache
 /system        ext4    /dev/block/platform/msm_sdcc.1/by-name/system
 /data          ext4    /dev/block/platform/msm_sdcc.1/by-name/userdata                        flags=settingsstorage;encryptable=footer;length=-16384
-/misc          emmc    /dev/block/platform/msm_sdcc.1/by-name/apps_log
 /ta            emmc    /dev/block/platform/msm_sdcc.1/by-name/TA                              flags=backup=1;display="Trim Area"
+/misc          emmc    /dev/block/platform/msm_sdcc.1/by-name/apps_log
 
 # Removable storage
 /external_sd   vfat    /dev/block/mmcblk1p1                               /dev/block/mmcblk1  flags=display="MicroSD";storage;wipeingui;removable;settingsstorage;encryptable=userdata
